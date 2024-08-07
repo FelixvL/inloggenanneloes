@@ -2,7 +2,8 @@
     function inlogGegevensControleren(){
         let gebruikersnaam = document.getElementById("gebruikersnaamVeld").value;
         let wachtwoord = document.getElementById("wachtwoordVeld").value;
-        console.log(gebruikersnaam, wachtwoord);
+
+        window.open("inloggegevenscontroleren.php?gebruikersnaampv="+gebruikersnaam, "_self");
     }
 </script>
 
